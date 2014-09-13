@@ -1,0 +1,30 @@
+{
+  "name": "bookshelf-work-flow",
+  "version": "0.0.1",
+  "description": "for bookshelf demo project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/owenyang0/BookShelf.git"
+  },
+  "author": "Owen Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owenyang0/bookshelf-work-flow/issues"
+  },
+  "homepage": "https://github.com/owenyang0/bookshelf-work-flow",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "gulp": "~3.8.6",
+    "gulp-sass": "~0.7.2",
+    "gulp-jshint": "~1.8.0",
+    "gulp-uglifyjs": "~0.4.2",
+    "gulp-imagemin": "~0.6.2",
+    "gulp-util": "~3.0.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1"
+  }
+}
